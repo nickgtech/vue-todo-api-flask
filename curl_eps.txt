@@ -1,0 +1,2 @@
+curl http://localhost:5000/api/task -d '{"task":"Read a book"}' -X POST -v
+curl http://localhost:5000/api/task/1 -X DELETE -v
